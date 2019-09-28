@@ -10,6 +10,7 @@
 		1E8AEB86A4B3DA88067F4CFA /* Pods_HappyMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F53FF10728C517D2407D6BB /* Pods_HappyMapTests.framework */; };
 		B17707CFDCEE036D571F264C /* Pods_HappyMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C84B79381796F98FD917A18 /* Pods_HappyMapUITests.framework */; };
 		CE1C997B5A57F8EDCF92EB21 /* Pods_HappyMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7256CE2D3531523C0D0275 /* Pods_HappyMap.framework */; };
+		CE4CCA59233F0B9800FC2644 /* PositionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CCA58233F0B9800FC2644 /* PositionCell.swift */; };
 		CE97F61C2335F17800EFF375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97F61B2335F17800EFF375 /* AppDelegate.swift */; };
 		CE97F61E2335F17800EFF375 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97F61D2335F17800EFF375 /* SceneDelegate.swift */; };
 		CE97F6202335F17800EFF375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97F61F2335F17800EFF375 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		79AA65ECA9C10A9FBB156DF4 /* Pods-HappyMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyMapUITests.debug.xcconfig"; path = "Target Support Files/Pods-HappyMapUITests/Pods-HappyMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F53FF10728C517D2407D6BB /* Pods_HappyMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E03499463D091221EEC2BB /* Pods-HappyMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyMapTests.debug.xcconfig"; path = "Target Support Files/Pods-HappyMapTests/Pods-HappyMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE4CCA58233F0B9800FC2644 /* PositionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionCell.swift; sourceTree = "<group>"; };
 		CE97F6182335F17800EFF375 /* HappyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE97F61B2335F17800EFF375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE97F61D2335F17800EFF375 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				CE97F61F2335F17800EFF375 /* ViewController.swift */,
 				CE97F6212335F17800EFF375 /* Main.storyboard */,
 				CEEEF24A233614F7008D874B /* MasterViewController.swift */,
+				CE4CCA58233F0B9800FC2644 /* PositionCell.swift */,
 				CEEEF24C2336152C008D874B /* DetailViewController.swift */,
 				CE97F6242335F17E00EFF375 /* Assets.xcassets */,
 				CE97F6262335F17E00EFF375 /* LaunchScreen.storyboard */,
@@ -399,6 +402,7 @@
 				CE97F6202335F17800EFF375 /* ViewController.swift in Sources */,
 				CEEEF24D2336152C008D874B /* DetailViewController.swift in Sources */,
 				CE97F61C2335F17800EFF375 /* AppDelegate.swift in Sources */,
+				CE4CCA59233F0B9800FC2644 /* PositionCell.swift in Sources */,
 				CE97F61E2335F17800EFF375 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
